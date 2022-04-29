@@ -1,0 +1,281 @@
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Ubuntu;     
+    src: url(UbuntuMono-R.ttf);
+}
+
+body{
+	background-color: #333333;
+	font-family: "Ubuntu";
+	display: block;
+}
+
+#main_body{
+	display: block;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	width: 100%;
+	font-size: 6vw;
+	top: 8vw;
+	position: relative;
+}
+
+#caption{
+	text-align: center;
+	width: 100%;
+	font-size: 1.2vw;
+	position: relative;
+	top: 12vw;
+}
+
+img{
+	position: relative;
+	width: 2vw;
+	height: auto;
+	display: none;
+	left:49vw;
+	cursor: pointer;
+}
+
+#scroll_down{
+	position: relative;
+	top: 17vw;
+	display: block;
+	cursor: s-resize;
+}
+
+
+#desktop, #mobile{
+	position: relative;
+	width: 100%;
+	padding-bottom: 10vw;
+	top: 22vw;
+}
+
+#mobile{
+	display: none;
+	opacity: none;
+}
+
+h3{
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+section{
+	display: none;
+	position: relative;
+	margin-top: 5vw;
+	cursor: pointer;
+}
+
+div{
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+
+h5{
+	display: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.input_box{
+	text-align: center;
+	display: none;
+	position: relative;
+	width: 30vw;
+	height: auto;
+	color: #bdbdbd;
+	left:35vw;
+	top:0;
+	line-height: 3vw;
+	font-size: auto;
+}
+
+input{
+	font-size: 1.5vw;
+	font-family: "Ubuntu";
+}
+
+form{
+	display: none;
+	position: relative;
+}
+
+.submit_button{
+	cursor: pointer;
+}
+
+
+#start_2, #start_3, #start_4, #start_5, #start_6, #start_7, #start_8, #start_9{
+	display: none;
+	margin-top: 5vw;
+}
+
+#start_1{
+	display: block;
+}
+
+.questions{
+	position: relative;
+	background-color: black;
+	color: white;
+	width: 50%;
+	left: 25vw;
+	text-align: center;
+	padding: 3vw;
+	margin-top: 3vw;
+}
+
+.questions:hover{
+	background-color: black;
+	cursor: pointer;
+}
+
+.answers{
+	position: relative;
+	background-color: blue;
+	color: white;
+	width: 50%;
+	left: 25vw;
+	text-align: center;
+	padding: 3vw;
+}
+
+
+h3:hover, section:hover{
+	text-shadow: 2px 2px 5px darkblue;
+}
+
+
+
+code {
+    color: #bdbdbd;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 0 30px 25px;
+}
+
+span {
+    color: #f0c674;
+}
+
+i {
+    color: #b5bd68;
+}
+
+em {
+    color: #b294bb;
+    font-style: unset;
+}
+
+b {
+    color: #81a2be;
+    font-weight: 500;
+}
+
+#open_8{
+	background-color: green;
+	text-align: left;
+}
+
+#final_print{
+	font-size: 2vw;
+	margin-top: 10vw;
+}
+
+
+
+
+@media (max-width: 450px){
+
+#desktop {
+	display: none;
+	opacity: none;
+
+}
+
+#mobile{
+	display: block;
+	opacity: 100%;
+	margin-top: 10vw;
+}
+
+h1{
+	font-size: 10vw;
+	width: 100%;
+}
+
+code{
+	font-size: 3.5vw;
+	line-height: 8vw;
+}
+
+#scroll_down{
+	display: none;
+}
+
+section, form, div{
+	text-align: center;
+}
+
+.questions, .answers{
+	width: 50%;
+	margin-top: 10vw;
+}
+
+.questions{
+	left: 10vw;
+}
+
+.answers{
+	right: 0vw;
+}
+
+.questions:hover{
+	background-color: black;
+	cursor: pointer;
+}
+
+#start_1_1{
+	display: block;
+	font-size: 8vw;
+	color: black;
+}
+
+#start_2_1, #start_3_1, #start_4_1, #start_5_1, #start_6_1, #start_7_1, #start_8_1{
+	display: none;
+	margin-top: 5vw;
+}
+
+#selina_4_1, #selina_6_1, #final_print_1{
+	font-size: 8vw;
+}
+
+.big_answer{			
+	position: relative;
+	background-color: none;
+	color: white;
+	width: 50%;
+	left: 15vw;
+	text-align: center;
+	padding: 3vw;
+}
+
+img{
+	width: 6vw;
+	left: 45vw;
+}
+

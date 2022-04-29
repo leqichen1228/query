@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Ubuntu;     
+    src: url(UbuntuMono-R.ttf);
+}
+
+body{
+	line-height: 2vw;
+	width: 80%;
+	margin-left: 10vw;
+}
+
+code{
+	display: block;
+	padding-top: 3vw;
+	color: purple;
+}
+
+img, form, section{
+	display: none;
+}
+
+#desktop{
+	display: none;
+}
+
+#mobile{
+	margin-top: 10vw;
+}
+
+#final_print_1{
+	display: none;
+}
+
+.answers, .big_answer{
+	color: blue;
+	margin-bottom: 5vw;
+}
